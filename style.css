@@ -58,6 +58,12 @@ nav div img{
     width: 30vw;
 }
 nav button{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
     padding: 5px 25px;
     color: hsl(322, 100%, 66%);
     border: 1px solid  hsl(322, 100%, 66%);
@@ -98,6 +104,12 @@ nav button:hover{
     color: hsl(192, 100%, 9%)
 }
 .section1 button, .section6 button {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
     padding: 5px 25px;
     color: white;
     border: 1px solid  hsl(322, 100%, 66%);
@@ -202,12 +214,6 @@ nav button:hover{
     width: 80%;
     margin: 10%;
 }
-.container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 10%;
-}
 .section4 div h2{
     font-family: "Poppins", sans-serif;
     font-weight: 700;
@@ -264,7 +270,7 @@ footer{
     padding: 10%;
 }
 .container-footer1{
-   height: 40vh;
+   height: 30vh;
 }
 footer h2{
     font-family: "Open Sans", sans-serif;
@@ -299,12 +305,17 @@ footer input{
     justify-content: flex-end;
 }
 .container-button button{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
     padding: 5px 20px;
     color: white;
     border: 1px solid  hsl(322, 100%, 66%);
     background-color: hsl(322, 100%, 66%);
     border-radius: 3px;
-    margin-top: 5%;
     width: 40%;
 }
 .container-button button:hover{
@@ -332,4 +343,147 @@ footer input{
     gap: 5%;
     margin-top: 10%;
     color: white;
+}
+
+@media screen and (min-width:800px){
+    nav{
+        margin: 5%;
+    }
+    nav div{
+        width: 10vw;
+    }
+    nav div img{
+        width: 15vw;
+    }
+    nav button{
+       font-size: 15px;
+    }
+    
+    .section1, .section6{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10% 10% 0 10%;
+    
+    }
+    .section1 h1, .section6 h2{
+        font-size: 50px;
+        margin-bottom: 0;  
+    }
+    .section1 p{
+        width: 55%;
+        font-size: 25px;
+        margin-top: 5%;
+        line-height: 2rem;
+        margin-bottom: 0;
+    }
+    .section1 button, .section6 button {
+       font-size: 15px;
+       padding: 10px 20px;
+       width: 20%;
+    }
+    .section1 div{
+        width: 90%;
+        margin: 10% 0;
+    }
+    
+    .section2{
+        flex-direction: row;
+        justify-content: center;
+        gap: 30%;
+    }
+    .section2 img{
+        width: 20%;
+    }
+    .section2 div div{
+        font-size: 80px;
+    }
+    .section2 p{
+        font-size: 20px;
+        margin-top: 10%;
+        text-align: center;
+    }
+    
+    .bg-top-1{
+        background-image: url(images/bg-section-top-desktop-1.svg);  
+    }
+    .section3, .section5{
+        flex-direction: row-reverse;
+    }
+    .container{
+ 
+    }
+    .section3 div h2, .section5 div h2{
+        font-size: 40px;
+        text-align: left;
+    }
+    .section3 div p, .section5 div p{
+        font-size: 20px;
+        line-height: 1.5rem;
+        text-align: left;
+    }
+    .bg-bottom-1{
+        background-image: url(images/bg-section-bottom-desktop-1.svg);
+    }
+    
+    .section4{
+        display: flex;
+    }
+    .section4 div h2{
+        font-size: 40px;
+        text-align: left;
+    }
+    .section4 div p{
+        font-size: 20px;
+        line-height: 1.5rem;
+        text-align: left;
+    }
+    
+    .bg-top-2{
+        background-image: url(images/bg-section-top-desktop-2.svg);
+        background-size: cover;
+        width: 100vw;
+        height: 25vh;
+    }
+    .bg-bottom-2{
+        background-image: url(images/bg-section-bottom-desktop-2.svg);
+        background-size: cover;
+        width: 100vw;
+        height: 25vh;
+    }
+    
+    .bg-footer-top{
+        background-image: url(images/bg-footer-top-desktop.svg);
+        margin-top: 20%;
+    }
+    footer{
+        flex-direction: row-reverse;
+        gap: 25%;
+    }
+    footer h2{
+        font-size: 40px;
+    }
+    footer p{
+        font-size: 20px;
+        line-height: 2rem;
+    }
+    footer input{
+        width: 70%;
+        height: 15%;
+    }
+    .container-button{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .container-button button{
+        padding: 10px 20px;
+        width: 25%;
+    }
+    .container-footer2 {
+        margin-top: 0
+    }
+    .socials-media{
+        gap:15%
+    }
+
 }
