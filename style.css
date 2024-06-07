@@ -1,0 +1,335 @@
+/* reset css */ 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* style */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    margin: 10%;
+}
+nav div{
+    width: 30vw;
+}
+nav div img{
+    width: 30vw;
+}
+nav button{
+    padding: 5px 25px;
+    color: hsl(322, 100%, 66%);
+    border: 1px solid  hsl(322, 100%, 66%);
+    background-color: white;
+    border-radius: 50px;
+}
+nav button:hover{
+    color: hsl(321, 100%, 78%);
+    border: 1px solid hsl(321, 100%, 78%);
+}
+
+.section1, .section6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+    margin: 10%;
+}
+.section1 h1, .section6 h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 25px;
+    line-height: 2rem;
+    text-align: center;
+    color: hsl(192, 100%, 9%)
+}
+.section1 p{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    line-height: 1.5rem;
+    text-align: center;
+    margin: 10% 0;
+    color: hsl(192, 100%, 9%)
+}
+.section1 button, .section6 button {
+    padding: 5px 25px;
+    color: white;
+    border: 1px solid  hsl(322, 100%, 66%);
+    background-color: hsl(322, 100%, 66%);
+    border-radius: 50px;
+    margin-top: 5%;
+    width: 70%;
+}
+.section1 button:hover, .section6 button:hover{
+    background-color: hsl(321, 100%, 78%);
+    border: 1px solid hsl(321, 100%, 78%);
+}
+.section1 div{
+    width: 90%;
+    margin: 30% 0 30%;
+}
+.section1 div img{
+    width: 100%;
+}
+
+.section2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section2 img{
+    width: 10%;
+}
+.section2 div div{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+    font-size: 50px;
+    color: hsl(192, 100%, 9%)
+
+}
+.section2 p{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+      color: grey;
+    font-size: 15px;
+}
+
+.bg-top-1{
+    background-image: url(images/bg-section-top-mobile-1.svg);
+    background-size: cover;
+    width: 100vw;
+    height: 25vh;
+}
+.section3, .section5{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(207, 100%, 98%);
+}
+.section3 img, .section5 img{
+    width: 80%;
+    margin: 10%;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10%;
+}
+.section3 div h2, .section5 div h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 2rem;
+    text-align: center;
+    color: hsl(192, 100%, 9%)
+}
+.section3 div p, .section5 div p{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+    color: hsl(192, 100%, 9%);
+    font-size: 15px;
+    line-height: 1.5rem;
+    text-align: center;
+    margin: 10% 0;
+}
+.bg-bottom-1{
+    background-image: url(images/bg-section-bottom-mobile-1.svg);
+    background-size: cover;
+    width: 100vw;
+    height: 25vh;
+}
+
+.section4 img{
+    width: 80%;
+    margin: 10%;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10%;
+}
+.section4 div h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 2rem;
+    text-align: center;
+    color: hsl(192, 100%, 9%)
+}
+.section4 div p{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+    color: hsl(192, 100%, 9%);
+    font-size: 15px;
+    line-height: 1.5rem;
+    text-align: center;
+    margin: 10% 0;
+}
+
+.bg-top-2{
+    background-image: url(images/bg-section-top-mobile-2.svg);
+    background-size: cover;
+    width: 100vw;
+    height: 25vh;
+}
+.bg-bottom-2{
+    background-image: url(images/bg-section-bottom-mobile-2.svg);
+    background-size: cover;
+    width: 100vw;
+    height: 25vh;
+}
+
+.section6{
+    margin-bottom: 30%;
+}
+.section6 h2{
+    margin-bottom: 10%;
+}
+
+.bg-footer-top{
+    background-image: url(images/bg-footer-top-mobile.svg);
+    background-size: cover;
+    width: 100vw;
+    height: 25vh;
+}
+footer{
+    background-color: hsl(192, 100%, 9%);
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+}
+.container-footer1{
+   height: 40vh;
+}
+footer h2{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+    font-size: 30px;
+    color:white;
+}
+footer p{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+    color: white;
+    font-size: 15px;
+    line-height: 1.5rem;
+    margin: 10% 0;
+}
+footer input{
+    border: none;
+    border-radius: 2px;
+    width: 100%;
+    height: 20%;
+}
+.container-button{
+    display: flex;
+    justify-content: flex-end;
+}
+.container-button button{
+    padding: 5px 20px;
+    color: white;
+    border: 1px solid  hsl(322, 100%, 66%);
+    background-color: hsl(322, 100%, 66%);
+    border-radius: 3px;
+    margin-top: 5%;
+    width: 40%;
+}
+.container-button button:hover{
+    background-color: hsl(321, 100%, 78%);
+    border: 1px solid hsl(321, 100%, 78%);
+}
+.container-footer2 {
+    margin-top: 30%;
+}
+.container-footer2 img{
+    background-color: white;
+}
+.container-footer3{
+    display: flex;
+    align-items: center;
+    gap: 5%;
+    height: 5vh;
+}
+.container-footer3 img{
+    width: 5%;
+    height: fit-content;
+}
+.socials-media{
+    display: flex;
+    gap: 5%;
+    margin-top: 10%;
+    color: white;
+}
